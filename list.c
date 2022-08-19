@@ -38,12 +38,19 @@ List * createList() {
 
 void * firstList(List * list) {
   list -> current = list -> head;
-  return list -> current -> data;
-
+  if (head != NULL){
+    return list -> current -> data;
+  }
+  else{
+    return NULL;
+  }
+  
 }
 
 void * nextList(List * list) {
-    return NULL;
+  list -> current = list -> head
+  list -> current-> next 
+  return NULL;
 }
 
 void * lastList(List * list) {
@@ -59,10 +66,21 @@ return null
 }
 
 void pushFront(List * list, void * data) {
+  //if (list  == null)
+  //return null
   /*node *newnode =cratenodo(data)
+if (list -< head != null){
 LIST-< HEAD -<PREV =NEWNODO
 NEWNODO = NEXT = LIST -< HEAD
-  LIST -< NHEAD = NEWNODE*/}
+  LIST -< NHEAD = NEWNODE*/
+}
+/*else {
+LIST -< HEAD = NEWNODE
+LIST -< TAIL = NEWNODE
+  
+  
+}*/
+}
 
 void pushBack(List * list, void * data) {
     list->current = list->tail;
