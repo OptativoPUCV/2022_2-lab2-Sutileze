@@ -145,3 +145,18 @@ list.c:54:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1: all warnings being treated as errors
 Compilation failed
 06956f6
+Fri 19 Aug 2022 01:12:21 PM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:52:18: error: statement with no effect [-Werror=unused-value]
+   52 |   list -> current-> next ;
+      |   ~~~~~~~~~~~~~~~^~~~~~~
+list.c: At top level:
+list.c:83:1: error: expected identifier or ‘(’ before ‘}’ token
+   83 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+a8c42b0
