@@ -80,6 +80,7 @@ LIST -< TAIL = NEWNODE
   
   
 }*/
+return NULL;
 }
 
 void pushBack(List * list, void * data) {

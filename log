@@ -160,3 +160,21 @@ list.c:83:1: error: expected identifier or ‘(’ before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 a8c42b0
+Fri 19 Aug 2022 01:12:57 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:52:18: error: statement with no effect [-Werror=unused-value]
+   52 |   list -> current-> next ;
+      |   ~~~~~~~~~~~~~~~^~~~~~~
+list.c: At top level:
+list.c:83:1: error: expected identifier or ‘(’ before ‘return’
+   83 | return NULL;
+      | ^~~~~~
+list.c:84:1: error: expected identifier or ‘(’ before ‘}’ token
+   84 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+007a345
