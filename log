@@ -14,3 +14,18 @@ Fri 19 Aug 2022 12:44:18 PM UTC:
  tests:  1|5
 total_score: 10/70
 f32402b
+Fri 19 Aug 2022 12:51:13 PM UTC: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:40:1: error: ‘L’ undeclared (first use in this function)
+   40 | L -> current = L -> head;
+      | ^
+list.c:40:1: note: each undeclared identifier is reported only once for each function it appears in
+list.c:42:1: error: control reaches end of non-void function [-Werror=return-type]
+   42 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+11997ee
