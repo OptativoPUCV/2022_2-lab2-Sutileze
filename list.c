@@ -38,7 +38,7 @@ List * createList() {
 
 void * firstList(List * list) {
 list -> current = list -> head;
-return list -> current -> data;
+return list -> current = data;
 }
 
 void * nextList(List * list) {
@@ -51,14 +51,17 @@ void * lastList(List * list) {
 
 void * prevList(List * list) {
   /*if (list -<current = Null)
-return null
+return null  
 
     */
     return NULL;
 }
 
 void pushFront(List * list, void * data) {
-}
+  /*node *newnode =cratenodo(data)
+LIST-< HEAD -<PREV =NEWNODO
+NEWNODO = NEXT = LIST -< HEAD
+  LIST -< NHEAD = NEWNODE*/}
 
 void pushBack(List * list, void * data) {
     list->current = list->tail;
