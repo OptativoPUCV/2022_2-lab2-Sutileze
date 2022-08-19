@@ -73,7 +73,7 @@ if (list -< head != null){
 LIST-< HEAD -<PREV =NEWNODO
 NEWNODO = NEXT = LIST -< HEAD
   LIST -< NHEAD = NEWNODE*/
-}
+//}
 /*else {
 LIST -< HEAD = NEWNODE
 LIST -< TAIL = NEWNODE
