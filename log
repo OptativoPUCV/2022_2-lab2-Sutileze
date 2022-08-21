@@ -580,3 +580,18 @@ list.c:82:33: error: ‘List’ {aka ‘struct List’} has no member named ‘e
       |                                 head
 Compilation failed
 8f051b3
+Sun 21 Aug 2022 10:00:48 PM UTC: 
+ list.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:82:33: error: ‘List’ {aka ‘struct List’} has no member named ‘ead’; did you mean ‘head’?
+   82 |     nuevoNodo -> next = list -> ead;
+      |                                 ^~~
+      |                                 head
+list.c: In function ‘pushCurrent’:
+list.c:96:17: error: expected expression before ‘>’ token
+   96 |     nuevoNodo - >next = list -> current -> next;
+      |                 ^
+Compilation failed
+90afa59
