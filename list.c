@@ -56,11 +56,11 @@ void * lastList(List * list) {
 }
 
 void * prevList(List * list) {
-
+  a=1
 }
 
 void pushFront(List * list, void * data) {
-
+a=1
 }
 
 void pushBack(List * list, void * data) {
