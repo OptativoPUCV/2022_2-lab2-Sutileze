@@ -397,3 +397,35 @@ list.c:60:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1: all warnings being treated as errors
 Compilation failed
 dfaae68
+Sun 21 Aug 2022 09:08:54 PM UTC: 
+ list.c | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:59:3: error: ‘a’ undeclared (first use in this function)
+   59 |   a=1
+      |   ^
+list.c:59:3: note: each undeclared identifier is reported only once for each function it appears in
+list.c:59:6: error: expected ‘;’ before ‘}’ token
+   59 |   a=1
+      |      ^
+      |      ;
+   60 | }
+      | ~     
+list.c: In function ‘pushFront’:
+list.c:63:3: error: ‘a’ undeclared (first use in this function)
+   63 |   a=1
+      |   ^
+list.c:63:6: error: expected ‘;’ before ‘}’ token
+   63 |   a=1
+      |      ^
+      |      ;
+   64 | }
+      | ~     
+list.c: In function ‘prevList’:
+list.c:60:1: error: control reaches end of non-void function [-Werror=return-type]
+   60 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+c2a0dbe

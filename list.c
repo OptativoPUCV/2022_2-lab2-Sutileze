@@ -60,7 +60,7 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-a=1
+  a=1
 }
 
 void pushBack(List * list, void * data) {
