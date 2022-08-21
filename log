@@ -647,3 +647,20 @@ list.c:125:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1: all warnings being treated as errors
 Compilation failed
 4c1fa81
+Sun 21 Aug 2022 10:06:56 PM UTC: 
+ list.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:123:11: error: expected expression before ‘>’ token
+  123 |     list- > head = current -> next;
+      |           ^
+list.c:117:9: error: unused variable ‘dato’ [-Werror=unused-variable]
+  117 |   void *dato = current -> data;
+      |         ^~~~
+list.c:132:1: error: control reaches end of non-void function [-Werror=return-type]
+  132 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+4f3eabb
