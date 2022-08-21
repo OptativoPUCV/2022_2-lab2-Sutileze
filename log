@@ -511,3 +511,33 @@ Sun 21 Aug 2022 09:14:23 PM UTC:
  tests:  9|3
 total_score: 35/70
 36f199e
+Sun 21 Aug 2022 09:48:29 PM UTC: 
+ list.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:77:6: error: expected ‘(’ before ‘list’
+   77 |   if list-> head == NULL){
+      |      ^~~~
+      |      (
+list.c:77:10: error: statement with no effect [-Werror=unused-value]
+   77 |   if list-> head == NULL){
+      |      ~~~~^~~~~~~
+list.c:77:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   77 |   if list-> head == NULL){
+      |   ^~
+list.c:77:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   77 |   if list-> head == NULL){
+      |                         ^
+list.c:77:25: error: expected statement before ‘)’ token
+list.c:78:18: error: ‘newNode’ undeclared (first use in this function); did you mean ‘Node’?
+   78 |     list->head = newNode;
+      |                  ^~~~~~~
+      |                  Node
+list.c:78:18: note: each undeclared identifier is reported only once for each function it appears in
+list.c:76:10: error: unused variable ‘nuevoNodo’ [-Werror=unused-variable]
+   76 |   Node * nuevoNodo = createNode(data);
+      |          ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ad8f0d0
