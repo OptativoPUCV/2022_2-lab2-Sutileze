@@ -595,3 +595,14 @@ list.c:96:17: error: expected expression before ‘>’ token
       |                 ^
 Compilation failed
 90afa59
+Sun 21 Aug 2022 10:01:14 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:82:33: error: ‘List’ {aka ‘struct List’} has no member named ‘ead’; did you mean ‘head’?
+   82 |     nuevoNodo -> next = list -> ead;
+      |                                 ^~~
+      |                                 head
+Compilation failed
+a6048d9
