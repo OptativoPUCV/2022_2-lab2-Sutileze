@@ -470,3 +470,14 @@ Sun 21 Aug 2022 09:11:47 PM UTC:
  tests:  6|4
 total_score: 25/70
 72aa80b
+Sun 21 Aug 2022 09:12:56 PM UTC: 
+ list.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:68:19: error: ‘lil’ undeclared (first use in this function)
+   68 |   list->current = lil;
+      |                   ^~~
+list.c:68:19: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+528c988
