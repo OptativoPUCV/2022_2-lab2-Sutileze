@@ -493,3 +493,9 @@ list.c:68:19: error: ‘lilst’ undeclared (first use in this function); did yo
 list.c:68:19: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 7c3c49d
+Sun 21 Aug 2022 09:13:17 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|4
+total_score: 25/70
+88468ad
