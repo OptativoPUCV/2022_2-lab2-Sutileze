@@ -630,3 +630,20 @@ Sun 21 Aug 2022 10:02:33 PM UTC:
  tests:  11|1
 total_score: 55/70
 9cfb761
+Sun 21 Aug 2022 10:05:46 PM UTC: 
+ list.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:123:11: error: expected expression before ‘>’ token
+  123 |     list- > head = current -> next;
+      |           ^
+list.c:117:9: error: unused variable ‘dato’ [-Werror=unused-variable]
+  117 |   void *dato = current -> data;
+      |         ^~~~
+list.c:125:1: error: control reaches end of non-void function [-Werror=return-type]
+  125 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+4c1fa81
