@@ -354,3 +354,14 @@ list.c:62:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 1fab0a7
+Sun 21 Aug 2022 09:08:25 PM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:60:1: error: control reaches end of non-void function [-Werror=return-type]
+   60 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+ea991cb
