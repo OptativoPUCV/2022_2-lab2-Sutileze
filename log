@@ -481,3 +481,15 @@ list.c:68:19: error: ‘lil’ undeclared (first use in this function)
 list.c:68:19: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 528c988
+Sun 21 Aug 2022 09:13:01 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:68:19: error: ‘lilst’ undeclared (first use in this function); did you mean ‘list’?
+   68 |   list->current = lilst->tai;
+      |                   ^~~~~
+      |                   list
+list.c:68:19: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+7c3c49d
