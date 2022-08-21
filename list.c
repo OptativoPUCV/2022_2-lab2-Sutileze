@@ -54,11 +54,7 @@ void * lastList(List * list) {
 }
 
 void * prevList(List * list) {
-  /*if (list -<current = Null)
-return null  
-
-    */
-    return NULL;
+  return NULL;
 }
 
 void pushFront(List * list, void * data) {
