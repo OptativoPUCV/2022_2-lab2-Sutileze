@@ -612,3 +612,15 @@ Sun 21 Aug 2022 10:01:25 PM UTC:
  tests:  10|2
 total_score: 45/70
 b2bfc15
+Sun 21 Aug 2022 10:02:21 PM UTC: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:99:5: error: ‘newNode’ undeclared (first use in this function); did you mean ‘Node’?
+   99 |     newNode -> prev = list -> current;
+      |     ^~~~~~~
+      |     Node
+list.c:99:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+05900f9
