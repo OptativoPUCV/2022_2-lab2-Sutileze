@@ -58,21 +58,8 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-  //if (list  == null)
-  //return null
-  /*node *newnode =cratenodo(data)
-if (list -< head != null){
-LIST-< HEAD -<PREV =NEWNODO
-NEWNODO = NEXT = LIST -< HEAD
-  LIST -< NHEAD = NEWNODE*/
-//}
-/*else {
-LIST -< HEAD = NEWNODE
-LIST -< TAIL = NEWNODE
-  
-  
-}*/
-return NULL;
+
+  return NULL;
 }
 
 void pushBack(List * list, void * data) {
