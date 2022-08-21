@@ -569,3 +569,14 @@ Sun 21 Aug 2022 09:51:39 PM UTC:
  tests:  10|2
 total_score: 45/70
 3c832df
+Sun 21 Aug 2022 09:52:36 PM UTC: 
+ list.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:82:33: error: ‘List’ {aka ‘struct List’} has no member named ‘ead’; did you mean ‘head’?
+   82 |     nuevoNodo -> next = list -> ead;
+      |                                 ^~~
+      |                                 head
+Compilation failed
+8f051b3
