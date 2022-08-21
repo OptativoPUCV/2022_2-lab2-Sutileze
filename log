@@ -606,3 +606,9 @@ list.c:82:33: error: ‘List’ {aka ‘struct List’} has no member named ‘e
       |                                 head
 Compilation failed
 a6048d9
+Sun 21 Aug 2022 10:01:25 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+b2bfc15
